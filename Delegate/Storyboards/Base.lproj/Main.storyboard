@@ -43,7 +43,6 @@
                     </view>
                     <connections>
                         <outlet property="smileLabel" destination="7ED-Ev-Zsi" id="Ox4-Cq-83j"/>
-                        <segue destination="blD-4A-yEU" kind="presentation" modalPresentationStyle="fullScreen" id="Qkn-bi-k7K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -70,7 +69,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your smile" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fa2-Zf-6eT">
                                 <rect key="frame" x="107" y="124" width="200" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="jao-RV-3aa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="jao-RV-3aa"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -103,9 +102,6 @@
             <point key="canvasLocation" x="754" y="71"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Ozp-S5-PV5"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

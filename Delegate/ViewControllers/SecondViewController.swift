@@ -1,10 +1,3 @@
-//
-//  SecondViewController.swift
-//  Delegate
-//
-//  Created by brubru on 24.08.2022.
-//
-
 import UIKit
 
 final class SecondViewController: UIViewController {
@@ -23,7 +16,6 @@ final class SecondViewController: UIViewController {
     }
 
     @IBAction func goBackButtonPressed() {
-        smileLabel.text = textField.text ?? ""
         let textFieldValue = textField.text
         delegate.setLabelText(for: textFieldValue!)
         
